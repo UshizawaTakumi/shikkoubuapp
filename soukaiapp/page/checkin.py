@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import io
+import openpyxl
 
 # app.pyから定数とキーをインポート
 from app import ID_COLUMN, NAME_COLUMN, DEPT_COLUMN, ATTEND_COLUMN, TIME_COLUMN, ROSTER_DF_KEY 

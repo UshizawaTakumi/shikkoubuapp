@@ -2,6 +2,7 @@
 
 import streamlit as st
 import pandas as pd
+import openpyxl
 
 # --- 1. 定数設定 ---
 ID_COLUMN = "学籍番号"

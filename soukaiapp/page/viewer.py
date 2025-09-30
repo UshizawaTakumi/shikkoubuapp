@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 from collections import Counter
 import io
+import openpyxl
 
 # app.pyから定数とキーをインポート
 from app import ROSTER_DF_KEY
